@@ -1,11 +1,14 @@
 package cinema;
 import java.lang.System;
 import java.util.Scanner;
+import cinema.Assento;
 
 
 
 public class Menu {
-    private Assento []assentos;
+    private static final int MAXIMO_LUGARES = 10;
+    int numeroCadeiras;
+    Assento []assentos;
 
     public static void menu(){
         System.out.println("=============== MENU =================");
@@ -45,6 +48,19 @@ public class Menu {
         menu();
         escolheMenu();
     }
+
+    public Menu(int tamanho){
+        assentos = new Assento[tamanho];
+        numeroCadeiras =0;
+    }
+
+    public boolean adicionaAssento(Assento assento){
+        if(numeroCadeiras == assentos.length)
+            return false;
+        assentos[numeroCadeiras++] = assento;
+        return true;
+    }
+
 
 
 
