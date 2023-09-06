@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 
 public class Menu {
+    private Assento []assentos;
 
     public static void menu(){
         System.out.println("=============== MENU =================");
@@ -44,4 +45,12 @@ public class Menu {
         menu();
         escolheMenu();
     }
+
+
+
+
+
+
+
+
 }
