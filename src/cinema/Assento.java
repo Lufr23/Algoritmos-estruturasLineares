@@ -3,7 +3,7 @@ package cinema;
 public class Assento {
 
 
-        int[] numeroAssento= {1,2,3,4,5,6,7};
+        static int[] numeroAssento= {1,2,3,4,5,6,7};
         String []letraAssento = {"A","B", "C","D","E","F","G","H","I","J","K","L"};
 
 
@@ -25,10 +25,10 @@ public class Assento {
         this.letraAssento = letraAssento;
     }
 
-    public boolean imprimeAssento(){
+    public static boolean imprimeAssento(){
         if(numeroAssento!=null){
             for(int i=0;i<numeroAssento.length;i++){
-                System.out.println(numeroAssento[i]);
+                System.out.print(numeroAssento[i]);
             }return true;
 
         }return false;
