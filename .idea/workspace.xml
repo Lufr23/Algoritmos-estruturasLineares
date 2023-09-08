@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e78048d-1721-4e19-92b0-17d756fa551b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cinema/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cinema/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cinema/Mapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cinema/Mapa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/User/Desktop/Unisinos/PROGRAMAÇÃOII-LABORATORIOII/Cinema",
+    "last_opened_file_path": "C:/Users/ferna/Cinema",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
