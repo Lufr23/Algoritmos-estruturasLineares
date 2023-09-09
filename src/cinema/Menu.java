@@ -49,17 +49,9 @@ public class Menu {
         escolheMenu();
     }
 
-    public Menu(int tamanho){
-        assentos = new Assento[tamanho];
-        numeroCadeiras =0;
-    }
 
-    public boolean adicionaAssento(Assento assento){
-        if(numeroCadeiras == assentos.length)
-            return false;
-        assentos[numeroCadeiras++] = assento;
-        return true;
-    }
+
+
 
 
 

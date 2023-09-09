@@ -1,7 +1,6 @@
 package cinema_test;
 
-import cinema.Assento;
-import cinema.Mapa;
+import cinema.*;
 import cinema.Assento;
 
 public class Cinema_test {
@@ -12,7 +11,13 @@ public class Cinema_test {
         //as1.imprimeAssento2();
         Mapa.tela();
         Mapa.imprimeMapa();
+        Menu.menu();
         Mapa.localizaAssento();
+        Opcoes.reservaAssento();
+        Opcoes.mostraQuantidade();
+        Menu.escolheMenu();
+        Opcoes op1 = new Opcoes();
+        op1.cancelaReserva();
 
         //declara assim para imprimir de uma classe para outra -> NOMECLASSE.nomeFunção();
         //Assento.imprimeAssento();

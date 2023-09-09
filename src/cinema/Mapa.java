@@ -3,10 +3,16 @@ package cinema;
 import javax.swing.*;
 
 public class Mapa {
-    int linha, coluna=0;
+    private static  String [] assentos;
 
+    public static String [] getAssentos(){
+        return assentos;
+    }
+    public static  int getMaximo_Elementos(){
+        return MAXIMO_ELEMENTOS =14;
+    }
 
-    private static final int MAXIMO_ELEMENTOS = 14;
+    private static int MAXIMO_ELEMENTOS = 14;
 
 
     public static void imprimeMapa() {
@@ -48,29 +54,7 @@ public class Mapa {
         System.out.println("   [ 1] [ 2] [ 3] [ 4] [ 5] [ 6] [ 7] [ 8] [ 9] [10] [11] [12] [13] [14]");
     }
 
-    public boolean reservaAssento(String []resultado){
-        for(int i=0;i<resultado.length;i++){
-            if(resultado==null){
-                System.out.println("Há assentos vagos");return true;
-            }
-        }return false;
-    }
-    public void linhasEcolunas(){
 
-        if(linha<0 || linha > MAXIMO_ELEMENTOS){
-            System.out.println("\nLinha Inválida, digite outra linha válida\n");
-        }
-        else if (coluna<0 || coluna>12){
-            System.out.println("\n Coluna inválida, digite outra coluna válida!\n");
-
-        }
-        else{
-            System.out.println("batata");
-            {
-
-            }
-        }
-    }
 
 
 
