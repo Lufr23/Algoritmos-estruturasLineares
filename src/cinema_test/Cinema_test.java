@@ -9,15 +9,12 @@ public class Cinema_test {
        // System.out.println("-----------TELA--------------");
         //as1.imprimeAssento();
         //as1.imprimeAssento2();
-        Mapa.tela();
-        Mapa.imprimeMapa();
         Menu.menu();
-        Mapa.localizaAssento();
-        Opcoes.reservaAssento();
-        Opcoes.mostraQuantidade();
+        //Mapa.localizaAssento();
+        //Opcoes.mostraQuantidade();
         Menu.escolheMenu();
         Opcoes op1 = new Opcoes();
-        op1.cancelaReserva();
+        //op1.cancelaReserva();
 
         //declara assim para imprimir de uma classe para outra -> NOMECLASSE.nomeFunção();
         //Assento.imprimeAssento();

@@ -29,25 +29,23 @@ public class Menu {
         switch (escolha){
 
             case 1:
-                System.out.println("voce esta reservando o seu lugar no cinema");
+                Opcoes.reservaAssento();
                 break;
             case 2:
-                System.out.println("Voce esta cancelando a sua presença nessa sessão");
+                //Opcoes.
                 break;
             case 3:
-                System.out.println("Voce esta escolhendo o seu assento na sessão");
+                Mapa.tela();
+                Mapa.imprimeMapa();
+                Mapa.localizaAssento();
                 break;
             case 4:
-                System.out.println("tem tantas pessoas na sessão");
+               // Opcoes.mostraQuantidade();
                 break;
         }
 
     }
 
-    public static void main(String[] args) {
-        menu();
-        escolheMenu();
-    }
 
 
 
