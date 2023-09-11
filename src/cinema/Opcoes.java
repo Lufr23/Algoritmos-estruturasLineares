@@ -12,19 +12,25 @@ public class Opcoes {
     public static void reservaAssento() {
         String[] assentos = new String[MAXIMO_ELEMENTOS];
         System.out.println("Digite o numero da cadeira desejada:");
-        for(int i=0; i<MAXIMO_ELEMENTOS; i++) {
-            System.out.println(assentos[i]);
-        }
+
         Scanner numero = new Scanner(System.in);
         cadeira = numero.nextInt();
-      //  Scanner iden = new Scanner(System.in);
-      //  letra = iden.next();
+        for(int i=0; i<MAXIMO_ELEMENTOS; i++) {
+            assentos[i] = ""+(i+1); //inicializa cada elemento com o indice +1
+            System.out.println(assentos[i]);
 
-       // String cadeiraString = Integer.toString(cadeira);
+        }
+
+        //Scanner iden = new Scanner(System.in);
+        //letra = iden.next();
+
+        //String cadeiraString = Integer.toString(cadeira);
         if(cadeira <=14) {
             for (int i = 0; i < MAXIMO_ELEMENTOS; i++) {
+                assentos[i]=" "+(i+1);
                 System.out.println("entrou no array");
                 System.out.println("Comparando com assento[" + i + "]: " + assentos[i]);
+
 
                 break;
             } // Para após encontrar a correspondência
